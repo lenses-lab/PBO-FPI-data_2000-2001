@@ -10,3 +10,6 @@ Each series includes a 's#_observation.dat' file that is a compilation of all of
 Zenith Distance Bin ("zdbin") and Galactic Longitude ("gallon") cuts have not been applied.
 
 See the RawSeriesParser.py python class for help with parsing these files.
+* The following python dependencies are required to use RawSeriesParser.py: os, sys, numpy, pandas
+* To use the functions defined in rawSeriesParser in a script, include this statement with your imports: "from rawSeriesParser import *"
+* See rawSeries_plotting_example.py for an example script using the rawSeriesParser
